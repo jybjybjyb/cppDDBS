@@ -115,7 +115,7 @@ struct STASTIC{
 extern unsigned long long dff;
 extern unsigned long c1;
 extern unsigned long c2;
-extern LARGE_INTEGER  large_interger;
+extern unsigned long  large_interger;
 
 #define PROFILE_START 		\
 						do{\

@@ -3,13 +3,14 @@
 #include <stdlib.h>
 #include <iostream>
 #include <memory.h>
-#include <windows.h>
+//#include <windows.h>
 #include <string.h>
 #include <vector>
 #include <iterator>
 #include <math.h>
 #include "GlobalVer.h"
 #include "GlobalDef.h"
+//#include <stddef.h>
 
 //using namespace std;
 
@@ -24,7 +25,7 @@ int ReadChbitRules() {
 	ptrRuleset->numRule = 0;
 
 //	char filename[10] = "acl.txt";	/* filter file name */
-	fp = fopen(".\\chbit_4k.txt", "r");
+	fp = fopen(".\\cnbit_1k.txt", "r");
 	if (fp == NULL) {
 		printf("Couldnt open filter set file \n");
 		return FAILURE;

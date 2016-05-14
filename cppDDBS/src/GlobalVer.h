@@ -28,7 +28,7 @@ char gMask[32];
 unsigned long long dff;
 unsigned long c1;
 unsigned long c2;
-LARGE_INTEGER  large_interger;
+unsigned long  large_interger;
 
 
 
